@@ -220,6 +220,8 @@ private:
     unsigned int rateLimit = 0;
     unsigned long rateLimitCounter = 0;   
     int encoderIncrement  = 0;
+    long counts = 0;
+    long oldCounts = 0;
 
 };
 
